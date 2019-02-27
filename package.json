@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
     "angular": "^1.7.7",
     "angular-route": "^1.7.7",
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "jquery-slim": "^3.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
