@@ -1,0 +1,17 @@
+<div class="container">
+    <div app-main-menu></div>
+    <div class="row" id="home-content">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" ng-repeat="item in ViewModels.Content">
+            <div class="box-part text-center rounded">
+                <i class="fa fa-3x" aria-hidden="true" ng-class="item.icon"></i>
+                <div class="title">
+                    <h4>{{item.title}}</h4>
+                </div>
+                <div class="text">
+                    <span>{{item.text}}</span>
+                </div>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>

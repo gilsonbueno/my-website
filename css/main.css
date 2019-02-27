@@ -1,0 +1,38 @@
+body, html,
+.main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    width: 100%;
+    background-image: url('../img/background.jpg');
+}
+
+.main-row {
+    background-color:#fffffff2;
+    margin-bottom: 10px;
+}
+
+.col-action {
+    width: 10%;
+    padding: 5px;
+}
+
+.form-row {
+    min-height: 150px;
+    padding: 15px;
+}
+
+.panel-top {
+    font-size: 21px;
+    padding: 8px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.jumbotron {
+    background-color: #3586d880;
+    color: white;
+}

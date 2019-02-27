@@ -1,0 +1,25 @@
+#home-content span{
+    font-size:15px;
+}
+#home-content a{
+  text-decoration:none; 
+  color: #0062cc;
+  border-bottom:2px solid #0062cc;
+}
+#home-content  .box{
+    padding:60px 0px;
+}
+
+#home-content  .box-part{
+    background:#ffffffdb;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+#home-content  .text{
+    margin:20px 0px;
+}
+
+#home-content  .fa{
+     color:#4183D7;
+}

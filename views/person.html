@@ -1,0 +1,32 @@
+<div class="container">
+    <div app-main-menu></div>
+    <div class="row">
+        <div class="col-md-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="home">Home</a></li>
+                    <li class="breadcrumb-item"><a href="personlist">Person List</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Create</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <div class="main-row col-md-12">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-10">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Name" ng-model="ViewModels.Person.name">
+                </div>
+                <div class="form-group col-md-2">
+                    <label>Age</label>
+                    <input type="text" class="form-control" placeholder="Age" ng-model="ViewModels.Person.age">
+                </div>
+                <div class="form-group col-md-12">
+                    <button type="submit" class="btn btn-success" ng-click="ViewActions.Submit()">Save</button>
+                    <button type="submit" class="btn btn-primary" ng-click="ViewActions.Cancel()">Cancel</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
