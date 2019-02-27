@@ -4,5 +4,9 @@
   <li><a href="http://jquery.com/" rel="nofollow">jQuery</a> 3.0.0</li>
   <li><a href="http://getbootstrap.com/" rel="nofollow">Bootstrap</a> 4.3.1</li>
 </ol>
+
 <h1>Installation</h1>
 Run <code>npm install</code> to install Grunt and other local dependencies and then execute <code>grunt dev</code> to install runtime dependencies.
+
+<h1>Make production build</h1>
+Run <code>npm prod</code> The results of the build will be in <code>build</code> folder.
